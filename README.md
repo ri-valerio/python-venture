@@ -1,2 +1,1 @@
-# python-venture
-:rocket:
+# python-venture :rocket:
