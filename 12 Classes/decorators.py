@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 class Duck:
     def __init__(self, **kwargs):
         self.properties = kwargs
@@ -16,8 +17,10 @@ class Duck:
     def get_property(self, key):
         return self.properties.get(key, None)
 
+
 def main():
-    donald = Duck(color = 'blue')
+    donald = Duck(color='blue')
     print(donald.get_property('color'))
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()
